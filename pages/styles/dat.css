@@ -1,0 +1,10 @@
+.custom-card {
+    background-color: #343a40; /* Color de la barra de navegación */
+}
+
+.centered-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

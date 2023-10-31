@@ -1,0 +1,69 @@
+body {
+    background-image: url(img/arch.png); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  
+  body::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.74); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+  }
+
+  .btn-custom {
+    background-color: #007de4; 
+    color: white;
+}
+
+
+.card-text {
+  text-align: justify; 
+  font-size: 1.5rem; 
+}
+.card-title {
+  text-align: center; 
+  font-size: 2rem;
+}
+
+#typed-text::after {
+  content: '|'; 
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+}
+
+
+.custom-carousel {
+  width: 600px; 
+  height: 450px !important;
+  margin: 0 auto; 
+}
+
+
+.custom-carousel .carousel-inner {
+  height: 100%; 
+}
+
+.custom-carousel .carousel-inner .carousel-item {
+  height: 100%; 
+}
+
+.custom-carousel img {
+  object-fit: cover; 
+  width: 100%;
+  height: 100%; 
+}

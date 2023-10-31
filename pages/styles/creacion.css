@@ -1,0 +1,27 @@
+.text-in-container {
+    font-size: 1.5em; /* Tamaño de fuente tres veces más grande */
+}
+
+.mb-3 {
+    margin-bottom: 1rem; /* Espacio entre los recuadros */
+}
+
+.mt-3 {
+    margin-top: 5cm; /* Espacio entre los contenedores y el footer */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-6 {
+    display: flex;
+    align-items: stretch;
+}
+
+.col-md-6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

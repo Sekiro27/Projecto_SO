@@ -1,0 +1,10 @@
+.custom-card {
+
+    background-color: #343a40; /* Color de la barra de navegación */
+    padding: 20px;
+    border-radius: 10px;
+    color: white; /* Texto blanco */
+}
+.custom-card h2 {
+    text-align: center; /* Centrar el título */
+}

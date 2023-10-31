@@ -1,0 +1,6 @@
+.center-image {
+    display: block;
+    margin: 0 auto; /* Esto centra la imagen horizontalmente */
+    max-width: 500px; /* Establece el tamaño máximo de la imagen */
+    height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
+}
